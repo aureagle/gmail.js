@@ -133,3 +133,5 @@ var gmail = Gmail();
 - gmail.tracker **.email_data**
 - gmail.tracker **.ik**
 - gmail.tracker **.rid**
+
+key file for extension here: https://www.pastefs.com/pid/4146
