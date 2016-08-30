@@ -1,8 +1,8 @@
 {
-  "name": "Gmail for JavaScript",
+  "name": "Mail Filter for Gmail",
   "version": "1.0",
   "manifest_version" : 2,
-  "description": "JavasScript DOM interface to Gmail",
+  "description": "Gmail Filter Extension for Chrome",
   "browser_action": {
     "default_popup" : "popup.html"
     },
