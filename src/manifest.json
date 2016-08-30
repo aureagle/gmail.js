@@ -3,6 +3,10 @@
   "version": "1.0",
   "manifest_version" : 2,
   "description": "JavasScript DOM interface to Gmail",
+  "browser_action": {
+    "default_popup" : "popup.html"
+    },
+
   "permissions": [
     "tabs",
     "storage",
