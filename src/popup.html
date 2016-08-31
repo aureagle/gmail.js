@@ -1,53 +1,48 @@
 <style type='text/css'>
-	table {
-		width: 360px;
-		padding: 0px;
-		margin: 0px;
-	}
-
-	tr {
-		width: 100%;
-	}
-
-	td {
-		width: 49%;
-	}
+table {
+	font-size: 12px;
+}
+a {
+	margin-left: 4px;
+}
 </style>
-<h2>Gmail Filter Settings</h2>
+<h2> Current Filters </h2>
 <table>
 	<tr>
-		<td>
-			Search <select>
-				<option>All Mail</option>
-				<option>Inbox</option>
-				<option>Spam</option>
-			</select>
-		</td>
+		<td><input type='checkbox' /></td>
+		<td><input type='text' name='filter' /></td>
+		<td><a href='#update'>update</a></td>
+		<td><a href='#delete'>delete</a></td>
 	</tr>
 	<tr>
-		<td>From</td><td><input type='text'></td>
+		<td><input type='checkbox' /></td>
+		<td><input type='text' name='filter' /></td>
+		<td><a href='#update'>update</a></td>
+		<td><a href='#delete'>delete</a></td>
 	</tr>
 	<tr>
-		<td>To</td><td><input type='text'></td>
+		<td><input type='checkbox' /></td>
+		<td><input type='text' name='filter' /></td>
+		<td><a href='#update'>update</a></td>
+		<td><a href='#delete'>delete</a></td>
 	</tr>
 	<tr>
-		<td>Subject</td><td><input type='text'></td>
+		<td><input type='checkbox' /></td>
+		<td><input type='text' name='filter' /></td>
+		<td><a href='#update'>update</a></td>
+		<td><a href='#delete'>delete</a></td>
 	</tr>
 	<tr>
-		<td>Includes Words</td><td><input type='text'></td>
+		<td><input type='checkbox' /></td>
+		<td><input type='text' name='filter' /></td>
+		<td><a href='#update'>update</a></td>
+		<td><a href='#delete'>delete</a></td>
 	</tr>
+	<!--append-->
 	<tr>
-		<td>Doesn't Have</td><td><input type='text'></td>
-	</tr>
-	<tr>
-		<td><input type='checkbox'>Has&nbsp;Attachment</td><td><input type='checkbox'>Don't include chats</td>
-	</tr>
-	<tr>
-		<td>Size <select><option>Greater Than</option><option>Less Than</option></select></td><td><input type='text' style='width: 79%;'><select style='width: 20%;'><option>MB</option><option>KB</option><option>B</option></select></td>
-	</tr>
-	<tr style='height: 20px; min-height: 20px;'>
-	</tr>
-	<tr>
-		<td></td><td><input type='button' value=' Filter Now ' /></td>
+		<td>Select</td>
+		<td><a href='#'>All</a><a href='#'>None</a></td>
+		<td></td>
+		<td><input type='button' value=' add more ' onclick='console.log( $("table").html())' /></td>
 	</tr>
 </table>
